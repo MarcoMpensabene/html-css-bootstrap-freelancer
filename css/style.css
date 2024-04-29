@@ -2,3 +2,22 @@ body{
     max-width: 600px;
     margin: 0 auto;
 }
+.green{
+    background-color: greenyellow;
+}
+.marine{
+    background-color: aquamarine;
+}
+
+
+@media screen and (min-width: 768px) {
+    body{
+        max-width: 990px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        max-width: 1199px;
+    }
+}
