@@ -14,9 +14,29 @@
 <body>
     
     <header>
-            
-        <nav>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         
         <section id="jumbo " class="my_light-green">
@@ -98,7 +118,41 @@
                 </div>
             </div>
         </section>
+        
+        <section id="contact-me">
+            <div class="my_small_cont">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="text-uppercase ">
+                                Contact-me
+                            </h2>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        
+                        <div id="form" class="d-flex flex-column mb-3" >
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Name" class="mb-3 border-top-0 border-start-0 border-end-0">
+                            
+                            <label for="password"></label>
+                            <input type="password" id="password" name="password" placeholder="Password" class="mb-3 border-top-0 border-start-0 border-end-0">
+                        
+                            <label for="phone-number"></label>
+                            <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number" class=" border-top-0 border-start-0 border-end-0">
+                            
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea class="form-control  border-top-0 border-start-0 border-end-0" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button class="my-2">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    
     </main>
+
+
             
     <footer class="text-center font-white">
         <div class="container-fluid  blu-delft">
