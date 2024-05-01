@@ -6,7 +6,7 @@ body{
     background-color: #1abc9c;
 }
 .my_small_cont{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -20,4 +20,41 @@ body{
 
 .blu-guado{
     background-color: #2c3e50;
+}
+#download-btn{
+    width: 150px;
+    background-color: #1abc9c;
+    border: 1px solid white;
+}
+
+#submit-btn{
+    width: 75px;
+    background-color: #1abc9c;
+    border: 0;
+}
+
+.star-line{
+    height: 4px;
+    width: 35%;
+    border-radius: 10px;
+}
+.fa-star{
+    font-size: 150%;
+}
+
+.back-white{
+    background-color: white;
+}
+
+.back-black{
+    background-color: black;
+}
+
+.footer-icons i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
 }
