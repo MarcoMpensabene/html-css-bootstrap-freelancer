@@ -58,3 +58,7 @@ body{
     align-content: center;
     justify-content: center;
 }
+#my_jumbo_cont{
+    width: 400px;
+    margin: 0 auto;
+}
